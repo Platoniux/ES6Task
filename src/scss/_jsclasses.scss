@@ -1,47 +1,33 @@
-.js-one {
+.js-image {
   width: 70px;
   height: 70px;
-  background: url('../images/1.png') center / cover no-repeat;
-  background-color: aquamarine;
   cursor: pointer;
 
+  &--one {
+    background: url('../images/1.png') center / cover no-repeat;
+    background-color: aquamarine;
+  }
+
+  &--two {
+    background: url('../images/2.png') center / cover no-repeat;
+    background-color: aquamarine;
+  }
+
+  &--three {
+    background: url('../images/3.png') center / cover no-repeat;
+    background-color: aquamarine;
+  }
+
+  &--four {
+    background: url('../images/4.png') center / cover no-repeat;
+    background-color: aquamarine;
+  }
+
   &:hover {
+    background-color: transparent;
+  }
+}
+
+.js-hover {
   background-color: transparent;
-  }
-}
-
-.js-two {
-  width: 70px;
-  height: 70px;
-  background: url('../images/2.png') center / cover no-repeat;
-  background-color: aquamarine;
-  cursor: pointer;
-
-  &:hover {
-    background-color: transparent;
-  }
-}
-
-.js-three {
-  width: 70px;
-  height: 70px;
-  background: url('../images/3.png') center / cover no-repeat;
-  background-color: aquamarine;
-  cursor: pointer;
-
-  &:hover {
-    background-color: transparent;
-  }
-}
-
-.js-four {
-  width: 70px;
-  height: 70px;
-  background: url('../images/4.png') center / cover no-repeat;
-  background-color: aquamarine;
-  cursor: pointer;
-
-  &:hover {
-    background-color: transparent;
-  }
 }
