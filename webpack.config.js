@@ -54,6 +54,7 @@ module.exports = {
         ]
     },
     devServer: {
+        publicPath: '/dist',
         overlay: true,
     },
     plugins: [

@@ -79,6 +79,7 @@
            });
         });
     }
+    console.log('net');
 
     function makeMagic(event) {
         let target = event.target;
@@ -87,5 +88,6 @@
             checkNextCells(target);
             workOnHover(rowsAndCells);
         }
+        workOnHover(rowsAndCells);
     }
 }());
