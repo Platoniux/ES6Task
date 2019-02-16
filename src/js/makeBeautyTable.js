@@ -1,6 +1,7 @@
 ;(function () {
     'use strict';
 
+    
     let classes = [
         'js-image--one',
         'js-image--two',
